@@ -14,7 +14,6 @@
 /* Файл variables.css */
 :root {
   --accent-color: #ff0070;
-
 }
 
 /* Файл style.css (dark theme) */
@@ -22,10 +21,9 @@
   --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
   --accent-color: #ff0070;
-  --text-color: #F1B2CE;
-  --accent-color-title: #DB00FF;
+  --text-color: #f1b2ce;
+  --accent-color-title: #db00ff;
   --hover-border-color: rgba(255, 0, 112, 0.4);
-
   --header-text-color: var(--accent-color);
   --header-decor-text: var(--bg-color);
   --bg-color-text: var(--accent-color);
@@ -35,17 +33,15 @@
 
 /* Файл light.css */
 :root {
-
   --bg-image: url(../images/cover-image-light.png);
-  --bg-color: #FFF1F7;
+  --bg-color: #fff1f7;
   --text-color: #353430;
   --accent-color-light: #ff8dcb;
-  --accent-color-title: #FFC2E6;
+  --accent-color-title: #ffc2e6;
   --hover-border-color: rgba(50, 49, 45, 0.4);
-
   --header-text-color: var(--text-color);
   --header-decor-text: var(--text-color);
   --bg-color-text: var(--accent-color-light);
   --shadow-color-title: var(--accent-color);
-  --title-text-color: var(--text-color); 
+  --title-text-color: var(--text-color);
 }
