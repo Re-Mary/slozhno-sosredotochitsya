@@ -12,6 +12,7 @@
   --bg-image: url(../images/cover-image-light.png);
   --bg-color: #fff1f7;
   --text-color: #353430;
+  --accent-color: #ff0070;
   --accent-color-light: #ff8dcb;
   --accent-color-title: #ffc2e6;
   --hover-border-color: rgba(50, 49, 45, 0.4);
@@ -20,6 +21,7 @@
   --bg-color-text: var(--accent-color-light);
   --shadow-color-title: var(--accent-color);
   --title-text-color: var(--text-color);
+  --edges-color: var(--text-color);
 }
 
 .page.theme_light .lightbulb {
@@ -31,12 +33,19 @@
     --bg-image: url(../images/cover-image-light.png);
     --bg-color: #fff1f7;
     --text-color: #353430;
+    --accent-color: #ff0070;
     --accent-color-light: #ff8dcb;
     --accent-color-title: #ffc2e6;
     --hover-border-color: rgba(50, 49, 45, 0.4);
+    --header-text-color: var(--text-color);
+    --header-decor-text: var(--text-color);
+    --bg-color-text: var(--accent-color-light);
+    --shadow-color-title: var(--accent-color);
+    --title-text-color: var(--text-color);
+    --edges-color: var(--text-color);
   }
 
-  .page.theme_auto .lightbulb {
+  :root .lightbulb {
     display: none;
   }
 }
