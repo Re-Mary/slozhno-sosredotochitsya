@@ -24,6 +24,10 @@
   --edges-color: var(--accent-color);
 }
 
+.page.theme_dark .lightbulb {
+  display: flex;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-image: url(../images/cover-image-dark.png);
